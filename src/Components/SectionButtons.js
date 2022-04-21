@@ -1,18 +1,25 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const SectionButtons = () => {
   return (
     <div>
-      <button>Arts</button>
-      <button>Books</button>
-      <button>Business</button>
-      <button>Health</button>
-      <button>Politics</button>
-      <button>Science</button>
-      <button>Sports</button>
-      <button>Technology</button>
-      <button>Travel</button>
-      <button>World</button>    </div>
+      <Link to='/business'>
+        < button > Business</button>
+      </Link >
+      <Link to='/politics'>
+        <button>Politics</button>
+      </Link>
+      <Link to='/science'>
+        <button>Science</button>
+      </Link>
+      <Link to='/technology'>
+        <button>Technology</button>
+      </Link>
+      <Link to='/world'>
+        <button>World</button>
+      </Link >
+    </div >
   )
 }
 
