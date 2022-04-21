@@ -1,12 +1,17 @@
 import logo from './logo.svg';
 import './App.css';
 import { Routes, Route } from 'react-router-dom'
+import Header from './Components/Header'
 
 function App() {
   return (
-    <Routes>
+    <>
+      <Header />
+      <Routes>
 
-    </Routes>
+
+      </Routes>
+    </>
   );
 }
 
