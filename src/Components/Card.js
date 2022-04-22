@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Card = ({ section, img, title, publishDate }) => {
   let [year, month, day] = publishDate.split('-')
@@ -7,12 +8,14 @@ const Card = ({ section, img, title, publishDate }) => {
 
   console.log(date)
   return (
-    <div>
-      <p>{title}</p>
-      <p>{date}</p>
-      <p>{section}</p>
-      <img src={img.url} alt={img.caption} />
-    </div>
+    <Link to={`/details/${title}`}>
+      <div>
+        <p>{title}</p>
+        <p>{date}</p>
+        <p>{section}</p>
+        <img src={img.url} alt={img.caption} />
+      </div>
+    </Link>
   )
 }
 
