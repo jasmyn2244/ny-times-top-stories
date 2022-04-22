@@ -6,7 +6,6 @@ const Card = ({ section, img, title, publishDate }) => {
   day = day.substring(0, 2)
   let date = [month, day, year].join('.')
 
-  console.log(date)
   return (
     <Link to={`/details/${title}`}>
       <div>
