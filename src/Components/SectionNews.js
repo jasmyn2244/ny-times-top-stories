@@ -18,7 +18,6 @@ const SectionNews = () => {
 
 
 
-  let articleCards = []
 
   // useEffect(() => {
   //   articleCards = articles.results.map(article => {
@@ -33,16 +32,21 @@ const SectionNews = () => {
   //   })
   // }, [articles])
 
+  let articleCards = []
 
   if (articles) {
     articleCards = articles.results.map(article => {
-      return (
-        <Card
-          key={article.published_date}
-          category={article.section}
-          article={article}
-        />
-      )
+      if (article.multimedia) {
+        return (
+          <Card
+            key={article.published_date}
+            section={section.section}
+            img={article.multimedia[0]}
+            title={article.title}
+            publishDate={article.published_date}
+          />
+        )
+      }
     })
   }
 
@@ -50,7 +54,8 @@ const SectionNews = () => {
 
   return (
     <div className='card-container'>
-      {articleCards}
+      {console.log(section)}
+      {articles && articleCards}
       {/* return a loader if there is no article availible yet if it's not defineed */}
     </div>
   )
