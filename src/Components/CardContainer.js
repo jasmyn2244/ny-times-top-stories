@@ -1,25 +1,26 @@
-import React, { useEffect, useState } from 'react'
+import React, { useEffect, useState, useContext } from 'react'
 import { useParams, Link } from 'react-router-dom'
 import { getArticlesByCategory } from '../api-calls'
 import Card from './Card'
+import { ArticlesContext } from '../Context/ArticlesContext'
 
 
-const SectionNews = () => {
+const CardContainer = () => {
   const section = useParams()
-  const [articles, setArticles] = useState(null)
+  const { articlesValue } = useContext(ArticlesContext)
+  const { articles, setArticles } = articlesValue
 
   useEffect(() => {
     getArticlesByCategory(section.section)
       .then(data => {
-        console.log(data)
-        setArticles(data)
+        setArticles(data.results)
       })
   }, [section])
 
   let articleCards = []
 
-  if (articles) {
-    articleCards = articles.results.map(article => {
+  if (articles.length > 0) {
+    articleCards = articles.map(article => {
       if (article.multimedia) {
         return (
           <Card
@@ -38,12 +39,11 @@ const SectionNews = () => {
 
   return (
     <div className='card-container'>
-      {console.log(section)}
-      {articles && articleCards}
+      {articlesValue && articleCards}
       {/* return a loader if there is no article availible yet if it's not defineed */}
     </div>
   )
 }
 
 
-export default SectionNews
+export default CardContainer
