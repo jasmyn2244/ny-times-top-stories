@@ -1,24 +1,24 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import '../Styles/SecsionButtons.scss'
+import '../Styles/SectionButtons.scss'
 
 const SectionButtons = () => {
   return (
-    <div>
+    <div className='section-button-container'>
       <Link to='/section/Business'>
-        < button > Business</button>
+        < button className='section-button business-button'> Business</button>
       </Link >
       <Link to='/section/Politics'>
-        <button>Politics</button>
+        <button className='section-button politics-button'>Politics</button>
       </Link>
       <Link to='/section/Science'>
-        <button>Science</button>
+        <button className='section-button science-button'>Science</button>
       </Link>
       <Link to='/section/Technology'>
-        <button>Technology</button>
+        <button className='section-button technology-button'>Technology</button>
       </Link>
       <Link to='/section/World'>
-        <button>World</button>
+        <button className='section-button world-button'>World</button>
       </Link >
     </div >
   )
