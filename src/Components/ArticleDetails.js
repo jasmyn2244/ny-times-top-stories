@@ -1,6 +1,7 @@
 import React, { useContext } from 'react'
 import { useParams, Link } from 'react-router-dom'
 import { ArticlesContext } from '../Context/ArticlesContext'
+import '../Styles/ArticleDetails.scss'
 
 
 const ArticleDetails = () => {

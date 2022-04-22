@@ -3,6 +3,7 @@ import { useParams, Link } from 'react-router-dom'
 import { getArticlesByCategory } from '../api-calls'
 import Card from './Card'
 import { ArticlesContext } from '../Context/ArticlesContext'
+import '../Styles/CardContainer.scss'
 
 
 const CardContainer = () => {

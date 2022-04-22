@@ -1,5 +1,6 @@
 import React from 'react'
 import SectionButtons from './SectionButtons'
+import '../Styles/Header.scss'
 
 const Header = () => {
   return (
