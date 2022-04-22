@@ -13,7 +13,6 @@ const CardContainer = () => {
   useEffect(() => {
     getArticlesByCategory(section.section)
       .then(data => {
-        console.log('data in useEffect', data)
         setArticles(data.results)
       })
   }, [section])
@@ -40,8 +39,6 @@ const CardContainer = () => {
 
   return (
     <div className='card-container'>
-      {console.log('articles', articles)}
-      {console.log('setArticles', setArticles)}
       {articlesValue && articleCards}
       {/* return a loader if there is no article availible yet if it's not defineed */}
     </div>

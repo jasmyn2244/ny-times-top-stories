@@ -9,7 +9,6 @@ const ArticlesProvider = ({ children }) => {
   return (
     <ArticlesContext.Provider
       value={{ articlesValue }}>
-      {console.log('in context>>>', articles)}
       {children}
     </ArticlesContext.Provider>
   )
