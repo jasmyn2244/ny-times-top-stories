@@ -7,16 +7,16 @@ const SectionButtons = () => {
       <Link to='/section/Business'>
         < button > Business</button>
       </Link >
-      <Link to='/section/politics'>
+      <Link to='/section/Politics'>
         <button>Politics</button>
       </Link>
-      <Link to='/section/science'>
+      <Link to='/section/Science'>
         <button>Science</button>
       </Link>
-      <Link to='/section/technology'>
+      <Link to='/section/Technology'>
         <button>Technology</button>
       </Link>
-      <Link to='/section/world'>
+      <Link to='/section/World'>
         <button>World</button>
       </Link >
     </div >

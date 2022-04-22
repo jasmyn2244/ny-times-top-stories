@@ -9,28 +9,12 @@ const SectionNews = () => {
   const [articles, setArticles] = useState(null)
 
   useEffect(() => {
-    getArticlesByCategory('Business')
+    getArticlesByCategory(section.section)
       .then(data => {
         console.log(data)
         setArticles(data)
       })
-  }, [])
-
-
-
-
-  // useEffect(() => {
-  //   articleCards = articles.results.map(article => {
-  //     return (
-  //       <Link>
-  //         <Card
-  //           key={article.published_date}
-  //           category={article.section}
-  //         />
-  //       </Link>
-  //     )
-  //   })
-  // }, [articles])
+  }, [section])
 
   let articleCards = []
 
