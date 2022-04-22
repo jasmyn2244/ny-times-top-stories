@@ -4,19 +4,19 @@ import { Link } from 'react-router-dom'
 const SectionButtons = () => {
   return (
     <div>
-      <Link to='/business'>
+      <Link to='/section/Business'>
         < button > Business</button>
       </Link >
-      <Link to='/politics'>
+      <Link to='/section/Politics'>
         <button>Politics</button>
       </Link>
-      <Link to='/science'>
+      <Link to='/section/Science'>
         <button>Science</button>
       </Link>
-      <Link to='/technology'>
+      <Link to='/section/Technology'>
         <button>Technology</button>
       </Link>
-      <Link to='/world'>
+      <Link to='/section/World'>
         <button>World</button>
       </Link >
     </div >
