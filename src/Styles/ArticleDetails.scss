@@ -1,0 +1,41 @@
+.details-container {}
+
+// <Link to= {
+//   `/section/$ {
+//     section
+//   }
+
+//   `
+// }
+
+// ><button>Back to All Articles</button></Link><div className='details-container'><div className='title'> {
+//   selectedArticle.title
+// }
+
+// </div><div className='image-and-details'><img className='image'
+
+// src= {
+//   selectedArticle.multimedia[0].url
+// }
+
+// alt= {
+//   selectedArticle.multimedia[0].url
+// }
+
+// /><div className='details-and-button'><div className='details'><p> {
+//   selectedArticle.byline
+// }
+
+// </p><p> {
+//   selectedArticle.published_date
+// }
+
+// </p><p> {
+//   section
+// }
+
+// </p></div><button className='button'>View Full Article</button></div></div><div className='abstract'> {
+//   selectedArticle.abstract
+// }
+
+// </div></div>

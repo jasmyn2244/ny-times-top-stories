@@ -22,7 +22,7 @@ const CardContainer = () => {
 
   if (articles.length > 0) {
     articleCards = articles.map(article => {
-      if (article.multimedia) {
+      if (article.multimedia && article.title) {
         return (
           <Card
             key={article.published_date}
