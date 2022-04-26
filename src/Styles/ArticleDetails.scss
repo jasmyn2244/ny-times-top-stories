@@ -1,4 +1,109 @@
-.details-container {}
+.back-button {
+  margin-left: 15%;
+  margin-bottom: 3%;
+  font-family: 'IBM Plex Mono',
+    monospace;
+  font-size: 100%;
+  width: 25%;
+  height: 3rem;
+  padding: 2%;
+  border: none;
+  border-radius: 10px;
+  background: whitesmoke;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.back-button:hover {
+  cursor: pointer;
+  background-color: rgb(255, 255, 255);
+  transform: scale(1.1);
+  transition-duration: .5s;
+}
+
+.details-border {
+  margin-right: 15%;
+  margin-left: 15%;
+  // max-width: 400px;
+  padding: 1rem;
+  position: relative;
+  background: linear-gradient(to right, rgb(255, 0, 0), purple);
+  padding: 5px;
+  border-radius: 24px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  height: 70%
+}
+
+.details-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 100%;
+  background-color: rgb(250, 250, 250);
+  // border: 2px solid red;
+  border-radius: 24px;
+  padding-left: 5%;
+  padding-right: 5%;
+  box-sizing: border-box;
+}
+
+.details-title {
+  font-size: 1.5rem;
+  padding: 2%;
+}
+
+.image-and-details {
+  display: flex;
+  justify-content: space-around;
+  // border: 2px solid blue;
+}
+
+.details-and-button {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  // border: 2px solid green;
+}
+
+.details-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  // border: 2px solid yellow;
+}
+
+.details-image {
+  height: 275px;
+}
+
+.abstract {
+  padding: 2% 0% 2% 0%
+}
+
+.full-article-button {
+  font-family: 'IBM Plex Mono',
+    monospace;
+  font-size: 100%;
+  text-decoration: none;
+  color: black;
+  width: 90%;
+  height: 4rem;
+  padding: 2%;
+  margin-bottom: 3%;
+  border: none;
+  border-radius: 10px;
+  background: linear-gradient(to right, rgb(255, 0, 0), purple);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.full-article-button:hover {
+  cursor: pointer;
+  background-color: rgb(255, 255, 255);
+  transform: scale(1.1);
+  transition-duration: .5s;
+}
 
 // <Link to= {
 //   `/section/$ {

@@ -4,6 +4,7 @@ import { getArticlesByCategory } from '../api-calls'
 import Card from './Card'
 import { ArticlesContext } from '../Context/ArticlesContext'
 import '../Styles/CardContainer.scss'
+import SectionButtons from './SectionButtons'
 
 
 const CardContainer = () => {
@@ -39,10 +40,13 @@ const CardContainer = () => {
 
 
   return (
-    <div className='card-container'>
-      {articlesValue && articleCards}
-      {/* return a loader if there is no article availible yet if it's not defineed */}
-    </div>
+    <>
+      <SectionButtons />
+      <div className='card-container'>
+        {articlesValue && articleCards}
+        {/* return a loader if there is no article availible yet if it's not defineed */}
+      </div>
+    </>
   )
 }
 
