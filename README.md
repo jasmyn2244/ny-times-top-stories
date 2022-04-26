@@ -28,7 +28,7 @@ View wire frame [here](https://www.figma.com/file/qbZozMRUVdj5i832rnFF6I/NY-Time
 
 The user can select a news category to begin viewing news articles
 
-![home_page_view](<img width="1395" alt="Screen Shot 2022-04-26 at 9 39 19 AM" src="https://user-images.githubusercontent.com/78129211/165341009-a8e44970-e11b-4196-8095-f4385113cf57.png">)
+<img width="1395" alt="Screen Shot 2022-04-26 at 9 39 19 AM" src="https://user-images.githubusercontent.com/78129211/165341009-a8e44970-e11b-4196-8095-f4385113cf57.png">
 
 **Brows Articles By Catergory**
 
@@ -41,6 +41,7 @@ Once a category is selected, users can scroll through the cards to find an artic
 When users click a card, they are taken to an articles details pages where they can view more information about the article including an abstract. They can click a button to be linked to the full NYT article, or go back to brows more of the articles
 
 ![article_details_page](<img width="1405" alt="Screen Shot 2022-04-26 at 9 40 21 AM" src="https://user-images.githubusercontent.com/78129211/165341088-f4485a37-b2c4-4c1d-b766-b96e3f354ef9.png">)
+<img width="1405" alt="Screen Shot 2022-04-26 at 9 40 21 AM" src="https://user-images.githubusercontent.com/78129211/165341593-23b24b44-8b19-4ea6-a579-72187fc91643.png">
 
 **Single Sighting page:**
 
