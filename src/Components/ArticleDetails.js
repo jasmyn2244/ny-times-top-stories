@@ -1,4 +1,4 @@
-import React, { useContext } from 'react'
+import React, { useContext, useEffect, useState } from 'react'
 import { useParams, Link } from 'react-router-dom'
 import { ArticlesContext } from '../Context/ArticlesContext'
 import '../Styles/ArticleDetails.scss'
@@ -8,48 +8,65 @@ const ArticleDetails = () => {
   const { articlesValue } = useContext(ArticlesContext)
   const { articles } = articlesValue
   const { section, title } = useParams()
+  const [newspaper, setNewspaper] = useState()
 
-  let selectedArticle = articles.find(article => {
-    console.log('article.title', article.title)
-    console.log('title>>>>', title)
-    return article.title = title
+  let counter = 0
+  let foundArticle = articles.find(article => {
+    counter++
+    console.log(counter)
+    console.log('article', article)
+    console.log('title', title)
+    return article.title.includes(title)
   })
+  console.log('foundArticle', foundArticle)
+
+  useEffect(() => {
+    setNewspaper(foundArticle)
+  }, [])
 
 
-  return (
-    <>
-      {console.log(selectedArticle)}
-      <Link to={`/section/${section}`}>
-        <button className='back-button'>Back to All Articles</button>
-      </Link>
-      <div className='details-border'>
-        <div className='details-container'>
-          <div className='details-title'>{selectedArticle.title}</div>
-          <div className='image-and-details'>
-            <img
-              className='details-image'
-              src={selectedArticle.multimedia[0].url}
-              alt={selectedArticle.multimedia[0].url} />
-            <div className='details-and-button'>
-              <div className='details-details'>
-                <p>{selectedArticle.byline}</p>
-                <p>{selectedArticle.published_date}</p>
-                <p>{section}</p>
+  if (newspaper) {
+    return (
+      <>
+        {/* {console.log('seclected Article', selectedArticle)} */}
+        {console.log('newspaper', newspaper)}
+        {/* {console.log('found article', foundArticle)} */}
+        {/* {console.log('selected article', selectedArticle)} */}
+        <Link to={`/section/${section}`}>
+          <button className='back-button'>Back to All Articles</button>
+        </Link>
+        <div className='details-border'>
+          <div className='details-container'>
+            <div className='details-title'>{newspaper.title}</div>
+            <div className='image-and-details'>
+              <img
+                className='details-image'
+                src={newspaper.multimedia[0].url}
+                alt={newspaper.multimedia[0].url} />
+              <div className='details-and-button'>
+                <div className='details-details'>
+                  <p>{newspaper.byline}</p>
+                  <p>{newspaper.published_date}</p>
+                  <p>{section}</p>
+                </div>
               </div>
-              <a className='full-article-button' href={selectedArticle.short_url} target='_blank' rel="noreferrer">View Full Artilce</a>
-              {/* <Link to={`/${selectedArticle.short_url}`} action='replace'>
-                < button className='full-article-button'>View Full Article</button>
-              </Link > */}
+            </div>
+            <div className='abstract'>{newspaper.abstract}</div>
+            <div className='article-button-container'>
+              <a
+                href={newspaper.short_url}
+                className='full-article-button'
+                target="_blank"
+                rel="noreferrer">View Full Article
+              </a>
             </div>
           </div>
-          <div className='abstract'>{selectedArticle.abstract}</div>
-
-
         </div>
-      </div>
 
-    </>
-  )
+      </>
+    )
+  }
+
 }
 
 export default ArticleDetails
