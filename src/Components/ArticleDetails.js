@@ -10,12 +10,7 @@ const ArticleDetails = () => {
   const { section, title } = useParams()
   const [newspaper, setNewspaper] = useState()
 
-  let counter = 0
   let foundArticle = articles.find(article => {
-    counter++
-    console.log(counter)
-    console.log('article', article)
-    console.log('title', title)
     return article.title.includes(title)
   })
 
@@ -27,10 +22,6 @@ const ArticleDetails = () => {
   if (newspaper) {
     return (
       <>
-        {/* {console.log('seclected Article', selectedArticle)} */}
-        {console.log('newspaper', newspaper)}
-        {/* {console.log('found article', foundArticle)} */}
-        {/* {console.log('selected article', selectedArticle)} */}
         <Link to={`/section/${section}`}>
           <button className='back-button'>Back to All Articles</button>
         </Link>
@@ -49,8 +40,6 @@ const ArticleDetails = () => {
                   <p className='paragraph'>Published: {newspaper.published_date}</p>
                 </div>
                 <div className='abstract'>Abstract: {newspaper.abstract}</div>
-                {/* <p>{newspaper.published_date}</p>
-              <p>{section}</p> */}
               </div>
 
             </div>
@@ -59,7 +48,6 @@ const ArticleDetails = () => {
                 <button className='full-article-button'>
                   <a
                     href={newspaper.short_url}
-                    // className='full-article-button'
                     target="_blank"
                     rel="noreferrer">View Full Article
                   </a>

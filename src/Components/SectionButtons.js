@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import '../Styles/SectionButtons.scss'
 
+
 const SectionButtons = () => {
   return (
     <div className='section-button-container'>

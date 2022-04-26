@@ -38,8 +38,6 @@ const CardContainer = () => {
     })
   }
 
-
-
   return (
     <>
       <SectionButtons />
@@ -50,6 +48,5 @@ const CardContainer = () => {
     </>
   )
 }
-
 
 export default CardContainer
