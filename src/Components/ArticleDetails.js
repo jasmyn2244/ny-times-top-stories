@@ -45,24 +45,30 @@ const ArticleDetails = () => {
                 alt={newspaper.multimedia[0].url} />
               <div className='details-and-button'>
                 <div className='details-details'>
-                  <p>{newspaper.byline}</p>
-                  <p>{newspaper.published_date}</p>
-                  <p>{section}</p>
+                  <p className='paragraph'>{newspaper.byline}</p>
+                  <p className='paragraph'>Section: {section}</p>
+                  <p className='paragraph'>Published: {newspaper.published_date}</p>
                 </div>
+                <div className='abstract'>Abstract: {newspaper.abstract}</div>
+                {/* <p>{newspaper.published_date}</p>
+              <p>{section}</p> */}
               </div>
+
             </div>
-            <div className='abstract'>{newspaper.abstract}</div>
             <div className='article-button-container'>
-              <a
-                href={newspaper.short_url}
-                className='full-article-button'
-                target="_blank"
-                rel="noreferrer">View Full Article
-              </a>
+              <div className='article-button-border'>
+                <button className='full-article-button'>
+                  <a
+                    href={newspaper.short_url}
+                    // className='full-article-button'
+                    target="_blank"
+                    rel="noreferrer">View Full Article
+                  </a>
+                </button>
+              </div>
             </div>
           </div>
         </div>
-
       </>
     )
   }
