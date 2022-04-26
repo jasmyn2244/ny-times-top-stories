@@ -16,7 +16,7 @@ p {
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 350px;
+  height: 50vh;
 }
 
 .card:hover {
@@ -35,10 +35,10 @@ p {
 }
 
 .title {
-  font-size: 110%;
+  font-size: 1.4vw;
   text-decoration: none;
 }
 
 .card-date-category {
-  font-size: 90%;
+  font-size: 1.2vw;
 }

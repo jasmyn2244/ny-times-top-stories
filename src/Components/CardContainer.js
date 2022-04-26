@@ -22,11 +22,12 @@ const CardContainer = () => {
   let articleCards = []
 
   if (articles.length > 0) {
-    articleCards = articles.map(article => {
+    articleCards = articles.map((article, index) => {
+      console.log(article)
       if (article.multimedia && article.title) {
         return (
           <Card
-            key={article.published_date}
+            key={index}
             section={section.section}
             img={article.multimedia[0]}
             title={article.title}
@@ -36,8 +37,6 @@ const CardContainer = () => {
       }
     })
   }
-
-
 
   return (
     <>
@@ -49,6 +48,5 @@ const CardContainer = () => {
     </>
   )
 }
-
 
 export default CardContainer
