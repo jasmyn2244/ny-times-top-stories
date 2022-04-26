@@ -1,70 +1,88 @@
-# Getting Started with Create React App
+# NY-Times-Top-Stories
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Table of Contents   
 
-## Available Scripts
+- [Abstract](#abstract)
+- [Project Goals](#project-goals)
+- [Project Specs](#project-specs)
+- [Challenges](#challenges)
+- [Future Iterations](#future-iterations)
+- [Install and Setup](#install-and-setup)
+- [api](#api)
+- [Tech Stack](#tech-stack)
+- [Contributors](#contributors)
 
-In the project directory, you can run:
+## Abstract
 
-### `npm start`
+NY Times Top Stories allows users to view top news stories based on thier news section of interest.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Project Goals
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Practice builidng an entire app quickly to simulate a take home challenge
 
-### `npm test`
+## Project Specs
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+View wire frame [here](https://www.figma.com/file/qbZozMRUVdj5i832rnFF6I/NY-Times-Top-Stories?node-id=0%3A1) 
 
-### `npm run build`
+**Homepage:**
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+The user can select a news category to begin viewing news articles
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![home_page_view]()
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+**Brows Articles By Catergory**
 
-### `npm run eject`
+Once a category is selected, users can scroll through the cards to find an articles of interest
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+![browse_news_articles]()
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+**Article Details Page:**
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+When users click a card, they are taken to an articles details pages where they can view more information about the article including an abstract. They can click a button to be linked to the full NYT article, or go back to brows more of the articles
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+![article_details_page]()
 
-## Learn More
+**Single Sighting page:**
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Challenges
 
-### Code Splitting
+- Had problems switching versions of React from 19 back to 17. In the end I chose to use version 18 and it worked out ok.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+## Future Iterations
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- Add feature so users can search articles by keyword
+- Add a 'save for later' feature so users can collect stories they want to read later
 
-### Making a Progressive Web App
+## Install and Setup
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+To run this app locally:
 
-### Advanced Configuration
+1. fork this repository
+2. run ```git clone  git@github.com:jasmyn2244/ny-times-top-stories.git``` in your command line
+3. Run ```cd ny-times-top-stories``` to navigate into the repository
+4. Run ```npm install```
+5. Run ```npm start```
+6. Visit ```http://localhost:3000/``` in your browser to view the OK Cryptid app!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## api
 
-### Deployment
+For this project, we access data from the NYT Top Stories API.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+[NTY API](https://developer.nytimes.com/docs/top-stories-product/1/overview)
 
-### `npm run build` fails to minify
+## Tech Stack
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+
+![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white)
+
+![SASS](https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white)
+
+![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB)
+
+
+# Contributors
+
+Jasmyn Hicks (she/her) - [GitHub](https://github.com/jasmyn2244)  [LinkedIn](https://www.linkedin.com/in/jasmyn-hicks/)
