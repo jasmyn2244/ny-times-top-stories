@@ -18,7 +18,6 @@ const ArticleDetails = () => {
     console.log('title', title)
     return article.title.includes(title)
   })
-  console.log('foundArticle', foundArticle)
 
   useEffect(() => {
     setNewspaper(foundArticle)
