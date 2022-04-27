@@ -15,6 +15,7 @@ const cleanData = (data) => {
         byline: article.byline,
         multimedia: article.multimedia,
         abstract: article.abstract,
+        url: article.url,
       })
     }
     return acc

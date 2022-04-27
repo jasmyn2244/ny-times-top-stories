@@ -1,11 +1,20 @@
+.header {
+  display: flex;
+  margin: 3% 15% 0% 15%;
+  border-bottom: 1px solid grey;
+}
+
 h1 {
   font-family: 'Cutive Mono',
     serif;
-  margin-top: 3%;
-  margin-left: 15%;
-  margin-right: 15%;
-  font-size: 4vw;
-  border-bottom: 1px solid grey;
+  margin-left: 1.2vw;
+  font-size: 3.9vw;
   padding-bottom: 2%;
   height: 15%;
+}
+
+.icon {
+  height: 5vh;
+  width: 3vw;
+  margin-top: 1.2vh;
 }

@@ -8,10 +8,10 @@ const Loader = () => {
       <SectionButtons />
       <div className='loader-container'>
         <p className='loading-text'>Loading</p>
-        <div class="loading-dots">
-          <div class="loading-dots--dot"></div>
-          <div class="loading-dots--dot"></div>
-          <div class="loading-dots--dot"></div>
+        <div className="loading-dots">
+          <div className="loading-dots--dot"></div>
+          <div className="loading-dots--dot"></div>
+          <div className="loading-dots--dot"></div>
         </div>
       </div>
     </>

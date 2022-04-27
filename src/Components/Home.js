@@ -8,7 +8,7 @@ const Home = () => {
     <>
       <SectionButtons />
       <div className='welcome-text'>
-        <p>Select a news section that captures your interest to begin browsing news articles.</p>
+        <p data-cy='welcome-text'>Select a news section that captures your interest to begin browsing news articles.</p>
       </div>
     </>
   )
