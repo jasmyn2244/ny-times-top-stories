@@ -8,9 +8,9 @@ const Card = ({ section, img, title, publishedDate }) => {
   return (
     <Link to={`/${section}/details/${title}`}
       style={{ textDecoration: 'none' }} >
-      <div className='card'>
+      <div className='card' data-cy='card'>
         <div className='card-details'>
-          <p className='title'>{title}</p>
+          <p className='title' data-cy='title'>{title}</p>
           <div className='card-date-category'>
             <p className='date'>{publishedDate}</p>
             <p>{section}</p>

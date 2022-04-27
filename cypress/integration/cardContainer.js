@@ -1,25 +1,17 @@
-describe('Home page cypress test', () => {
+describe('User can select a section and browse articles', () => {
 
   beforeEach(() => {
-    cy.intercept('GET', `https://api.nytimes.com/svc/topstories/v2/science.json?api-key=8ZDg0yzMYeR4UjC2L9XmjGheLsAz7rJA`,
-      { fixture: 'articles.json' }).as('getArticles')
-
     cy.visit('http://localhost:3000/')
+    cy.intercept('GET', 'https://api.nytimes.com/svc/topstories/v2/Science.json?api-key=8ZDg0yzMYeR4UjC2L9XmjGheLsAz7rJA', { fixture: 'articles.json' }).as('getArticles')
   })
 
-  it('Should render elements to the page', () => {
-    cy.get('[data-cy=icon]').should('have.attr', 'src', '/static/media/news.7a62bf59f9350746f279.png')
-    cy.get('[data-cy=heading]').contains('New York Times Top Stories')
+  it('Should render cards to the page when users click a section button', () => {
     cy.get('[data-cy=section-button')
-      .eq(0).contains('Business')
-    cy.get('[data-cy=section-button')
-      .eq(1).contains('Politics')
-    cy.get('[data-cy=section-button')
-      .eq(2).contains('Science')
-    cy.get('[data-cy=section-button')
-      .eq(3).contains('Technology')
-    cy.get('[data-cy=section-button')
-      .eq(4).contains('World')
-    cy.get('[data-cy=welcom-message]').contains('Select a news section that captures your interest to begin browsing news articles.')
+      .eq(2).contains('Science').click()
+    cy.wait('@getArticles')
+    cy.get('[data-cy=card]').should('have.length', 3)
+    cy.get('[data-cy=title]').should('have.length', 3)
+    cy.get('[data-cy=card]')
+      .eq(0).click()
   })
 })

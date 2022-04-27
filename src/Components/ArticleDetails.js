@@ -11,7 +11,6 @@ const ArticleDetails = () => {
   const [newspaper, setNewspaper] = useState()
 
   let foundArticle = articles.find(article => {
-    console.log('artice', article)
     return article.title.includes(title)
   })
 
@@ -24,29 +23,30 @@ const ArticleDetails = () => {
     return (
       <>
         <Link to={`/section/${section}`}>
-          <button className='back-button'>Back to All Articles</button>
+          <button className='back-button' data-cy='button'>Back to All Articles</button>
         </Link>
         <div className='details-border'>
           <div className='details-container'>
-            <div className='details-title'>{newspaper.title}</div>
+            <div className='details-title' data-cy='details-title'>{newspaper.title}</div>
             <div className='image-and-details'>
               <img
                 className='details-image'
+                data-cy='details-image'
                 src={newspaper.multimedia[0].url}
                 alt={newspaper.multimedia[0].url} />
               <div className='details-and-button'>
                 <div className='details-details'>
-                  <p className='paragraph'>{newspaper.byline}</p>
-                  <p className='paragraph'>Section: {section}</p>
-                  <p className='paragraph'>Published: {newspaper.publishedDate}</p>
+                  <p className='paragraph' data-cy='byline'>{newspaper.byline}</p>
+                  <p className='paragraph' data-cy='section'>Section: {section}</p>
+                  <p className='paragraph' data-cy='published-date'>Published: {newspaper.publishedDate}</p>
                 </div>
-                <div className='abstract'>Abstract: {newspaper.abstract}</div>
+                <div className='abstract' data-cy='abstract'>Abstract: {newspaper.abstract}</div>
               </div>
 
             </div>
             <div className='article-button-container'>
               <div className='article-button-border'>
-                <button className='full-article-button'>
+                <button className='full-article-button' data-cy='full-article-button'>
                   <a
                     href={newspaper.url}
                     target="_blank"
