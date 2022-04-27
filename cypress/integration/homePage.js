@@ -18,6 +18,6 @@ describe('Home page cypress test', () => {
       .eq(3).contains('Technology')
     cy.get('[data-cy=section-button')
       .eq(4).contains('World')
-    cy.get('[data-cy=welcom-message]').contains('Select a news section that captures your interest to begin browsing news articles.')
+    cy.get('[data-cy=welcome-text]').contains('Select a news section that captures your interest to begin browsing news articles.')
   })
 })

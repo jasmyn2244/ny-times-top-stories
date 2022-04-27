@@ -1,0 +1,462 @@
+{
+  "status": "OK",
+  "copyright": "Copyright (c) 2022 The New York Times Company. All Rights Reserved.",
+  "section": "Science",
+  "last_updated": "2022-04-26T07:50:57-04:00",
+  "num_results": 26,
+  "results": [
+    {
+      "section": "science",
+      "subsection": "",
+      "title": "Sign Up for the Science Times Newsletter",
+      "abstract": "Every week, we’ll bring you stories that capture the wonders of the human body, nature and the cosmos.",
+      "url": "null",
+      "uri": "nyt://embeddedinteractive/daba9d03-29b8-5cfc-8cbd-74b8abf54a07",
+      "byline": "",
+      "item_type": "EmbeddedInteractive",
+      "updated_date": "2018-04-07T13:23:25-04:00",
+      "created_date": "2016-02-05T18:18:53-05:00",
+      "published_date": "2016-02-05T18:18:53-05:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [],
+      "org_facet": [],
+      "per_facet": [],
+      "geo_facet": [],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2016/02/06/science/sciencenewsletter2/sciencenewsletter2-superJumbo.jpg",
+          "format": "Super Jumbo",
+          "height": 1534,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "NASA, via Associated Press"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2016/02/06/science/sciencenewsletter2/sciencenewsletter2-mediumThreeByTwo440.jpg",
+          "format": "mediumThreeByTwo440",
+          "height": 293,
+          "width": 440,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "NASA, via Associated Press"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2016/02/06/science/sciencenewsletter2/sciencenewsletter2-thumbLarge.jpg",
+          "format": "Large Thumbnail",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "NASA, via Associated Press"
+        }
+      ],
+      "short_url": ""
+    },
+    {
+      "section": "admin",
+      "subsection": "",
+      "title": "",
+      "abstract": "",
+      "url": "",
+      "uri": "nyt://embeddedinteractive/6cb185ed-65ac-50a5-ace3-5bab81934245",
+      "byline": "",
+      "item_type": "EmbeddedInteractive",
+      "updated_date": "2015-07-20T13:45:03-04:00",
+      "created_date": "2015-04-16T14:13:18-04:00",
+      "published_date": "2015-04-16T14:13:18-04:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [],
+      "org_facet": [],
+      "per_facet": [],
+      "geo_facet": [],
+      "multimedia": null,
+      "short_url": ""
+    },
+    {
+      "section": "health",
+      "subsection": "",
+      "title": "The Coronavirus Has Infected More Than Half of Americans, the C.D.C. Reports",
+      "abstract": "But prior infection does not guarantee protection from the virus, officials said, and Americans should still get vaccinated and boosted.",
+      "url": "https://www.nytimes.com/2022/04/26/health/coronavirus-antibodies-americans-cdc.html",
+      "uri": "nyt://article/67de7cd9-65fc-5e5b-a798-9a5d57e225ab",
+      "byline": "By Apoorva Mandavilli",
+      "item_type": "Article",
+      "updated_date": "2022-04-26T20:36:29-04:00",
+      "created_date": "2022-04-26T18:50:55-04:00",
+      "published_date": "2022-04-26T18:50:55-04:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "your-feed-science",
+        "Coronavirus Omicron Variant",
+        "Long Covid",
+        "Disease Rates",
+        "Coronavirus (2019-nCoV)",
+        "Vaccination and Immunization",
+        "Antibodies"
+      ],
+      "org_facet": [
+        "Centers for Disease Control and Prevention"
+      ],
+      "per_facet": [
+        "Walensky, Rochelle"
+      ],
+      "geo_facet": [
+        "United States"
+      ],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2022/04/26/science/26virus-seroprevalence1/26virus-seroprevalence1-superJumbo.jpg",
+          "format": "Super Jumbo",
+          "height": 1365,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Covid testing at a site in Oakland, Calif. The country has seen about a five-fold drop in P.C.R. testing since the Omicron peak, so tracking new cases has been difficult.",
+          "copyright": "Jim Wilson/The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2022/04/26/science/26virus-seroprevalence1/26virus-seroprevalence1-threeByTwoSmallAt2X.jpg",
+          "format": "threeByTwoSmallAt2X",
+          "height": 400,
+          "width": 600,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Covid testing at a site in Oakland, Calif. The country has seen about a five-fold drop in P.C.R. testing since the Omicron peak, so tracking new cases has been difficult.",
+          "copyright": "Jim Wilson/The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2022/04/26/science/26virus-seroprevalence1/26virus-seroprevalence1-thumbLarge.jpg",
+          "format": "Large Thumbnail",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Covid testing at a site in Oakland, Calif. The country has seen about a five-fold drop in P.C.R. testing since the Omicron peak, so tracking new cases has been difficult.",
+          "copyright": "Jim Wilson/The New York Times"
+        }
+      ],
+      "short_url": "https://nyti.ms/3vLDvnp"
+    },
+    {
+      "section": "climate",
+      "subsection": "",
+      "title": "New Rules Will End the Century-Long Run of Classic Light Bulbs",
+      "abstract": "The administration set efficiency standards that will phase out sales of incandescent bulbs in favor of LEDs, reducing Americans’ electrical bills over time.",
+      "url": "https://www.nytimes.com/2022/04/26/climate/biden-incandescent-led-light-bulb.html",
+      "uri": "nyt://article/29f63d86-67a1-5895-bd97-30fb3b054e1e",
+      "byline": "By Hiroko Tabuchi",
+      "item_type": "Article",
+      "updated_date": "2022-04-26T16:30:01-04:00",
+      "created_date": "2022-04-26T15:08:09-04:00",
+      "published_date": "2022-04-26T15:08:09-04:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "Global Warming",
+        "Greenhouse Gas Emissions",
+        "Energy Efficiency",
+        "Electric Light Bulbs",
+        "Light-Emitting Diodes",
+        "United States Politics and Government"
+      ],
+      "org_facet": [
+        "Energy Department"
+      ],
+      "per_facet": [],
+      "geo_facet": [],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2022/04/26/climate/26CLI-LIGHTBULB/26CLI-LIGHTBULB-superJumbo.jpg",
+          "format": "Super Jumbo",
+          "height": 1365,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "The Department of Energy said that, once the rules are in place next year, Americans will save $3 billion on utility bills.",
+          "copyright": "Justin Sullivan/Getty Images"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2022/04/26/climate/26CLI-LIGHTBULB/26CLI-LIGHTBULB-threeByTwoSmallAt2X.jpg",
+          "format": "threeByTwoSmallAt2X",
+          "height": 400,
+          "width": 600,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "The Department of Energy said that, once the rules are in place next year, Americans will save $3 billion on utility bills.",
+          "copyright": "Justin Sullivan/Getty Images"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2022/04/26/climate/26CLI-LIGHTBULB/26CLI-LIGHTBULB-thumbLarge.jpg",
+          "format": "Large Thumbnail",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "The Department of Energy said that, once the rules are in place next year, Americans will save $3 billion on utility bills.",
+          "copyright": "Justin Sullivan/Getty Images"
+        }
+      ],
+      "short_url": "https://nyti.ms/3rP5XUc"
+    },
+    {
+      "section": "health",
+      "subsection": "",
+      "title": "Do Vaccines Protect Against Long Covid?",
+      "abstract": "Maybe, according to a growing number of studies, but there’s not yet a definitive answer.",
+      "url": "https://www.nytimes.com/article/long-covid-vaccines.html",
+      "uri": "nyt://article/1dfe3743-5c4b-5e01-8121-f1d010e05c8b",
+      "byline": "By Pam Belluck",
+      "item_type": "Article",
+      "updated_date": "2022-04-26T15:26:07-04:00",
+      "created_date": "2022-04-26T05:00:24-04:00",
+      "published_date": "2022-04-26T05:00:24-04:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "your-feed-science",
+        "Chronic Condition (Health)",
+        "Long Covid",
+        "Coronavirus Risks and Safety Concerns",
+        "Coronavirus (2019-nCoV)",
+        "Vaccination and Immunization",
+        "Research",
+        "your-feed-healthcare"
+      ],
+      "org_facet": [],
+      "per_facet": [],
+      "geo_facet": [],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2022/04/26/science/26virus-long-covid-vaccines1/merlin_205115517_b87a3f1f-fc14-4e53-a4e9-6bc58c8ecb72-superJumbo.jpg",
+          "format": "Super Jumbo",
+          "height": 1365,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Receiving a boster shot in Los Angeles this month. ",
+          "copyright": "Alisha Jucevic for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2022/04/26/science/26virus-long-covid-vaccines1/26virus-long-covid-vaccines1-threeByTwoSmallAt2X.jpg",
+          "format": "threeByTwoSmallAt2X",
+          "height": 400,
+          "width": 600,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Receiving a boster shot in Los Angeles this month. ",
+          "copyright": "Alisha Jucevic for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2022/04/26/science/26virus-long-covid-vaccines1/26virus-long-covid-vaccines1-thumbLarge.jpg",
+          "format": "Large Thumbnail",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Receiving a boster shot in Los Angeles this month. ",
+          "copyright": "Alisha Jucevic for The New York Times"
+        }
+      ],
+      "short_url": "https://nyti.ms/3OCDMBK"
+    },
+    {
+      "section": "espanol",
+      "subsection": "",
+      "title": "Guerra íntima: el silencio en torno al trastorno de estrés postraumático",
+      "abstract": "Los expertos afirman que millones viven afectados por el trauma, que se ha convertido en una palabra de moda y en meme. Entonces, ¿por qué no se atiende a más personas que lo padecen?",
+      "url": "https://www.nytimes.com/es/2022/04/26/espanol/tept-sintomas.html",
+      "uri": "nyt://article/83d73059-c3f6-568f-911d-8527a2055432",
+      "byline": "By Dani Blum",
+      "item_type": "Article",
+      "updated_date": "2022-04-26T04:00:06-04:00",
+      "created_date": "2022-04-26T04:00:06-04:00",
+      "published_date": "2022-04-26T04:00:06-04:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "Post-Traumatic Stress Disorder",
+        "Quarantine (Life and Culture)",
+        "Anxiety and Stress",
+        "Content Type: Service",
+        "Mental Health and Disorders",
+        "Therapy and Rehabilitation",
+        "Depression (Mental)",
+        "Psychiatry and Psychiatrists",
+        "audio-negative-sad",
+        "audio-neutral-informative"
+      ],
+      "org_facet": [],
+      "per_facet": [],
+      "geo_facet": [],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2022/04/19/well/00well-ptsd/00well-ptsd-superJumbo.png",
+          "format": "Super Jumbo",
+          "height": 1365,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Debora Cheyenne Cruchon"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2022/04/19/well/00well-ptsd/00well-ptsd-threeByTwoSmallAt2X.png",
+          "format": "threeByTwoSmallAt2X",
+          "height": 400,
+          "width": 600,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Debora Cheyenne Cruchon"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2022/04/19/well/00well-ptsd/00well-ptsd-thumbLarge.png",
+          "format": "Large Thumbnail",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Debora Cheyenne Cruchon"
+        }
+      ],
+      "short_url": "https://nyti.ms/37KOsxp"
+    },
+    {
+      "section": "insider",
+      "subsection": "",
+      "title": "For a Series on Mental Health, Subjects Had Questions, Too",
+      "abstract": "The journalist behind a new series on adolescent mental health shares the most revelatory behind-the-scenes aspect of the project.",
+      "url": "https://www.nytimes.com/2022/04/23/insider/teen-mental-health-sources.html",
+      "uri": "nyt://article/c34e9c4c-687e-598a-9903-131d3a351c79",
+      "byline": "By Matt Richtel",
+      "item_type": "Article",
+      "updated_date": "2022-04-24T00:07:32-04:00",
+      "created_date": "2022-04-23T22:35:07-04:00",
+      "published_date": "2022-04-23T22:35:07-04:00",
+      "material_type_facet": "",
+      "kicker": "Times Insider",
+      "des_facet": [
+        "Teenagers and Adolescence",
+        "Mental Health and Disorders",
+        "Coronavirus (2019-nCoV)",
+        "Anxiety and Stress",
+        "Depression (Mental)",
+        "Parenting"
+      ],
+      "org_facet": [],
+      "per_facet": [],
+      "geo_facet": [],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2022/04/21/science/00adolescents-INSIDER/00adolescents-INSIDER-superJumbo.jpg",
+          "format": "Super Jumbo",
+          "height": 1365,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "M, one of several teenagers the author spoke to in the course of reporting.",
+          "copyright": "Annie Flanagan for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2022/04/21/science/00adolescents-INSIDER/00adolescents-INSIDER-threeByTwoSmallAt2X.jpg",
+          "format": "threeByTwoSmallAt2X",
+          "height": 400,
+          "width": 600,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "M, one of several teenagers the author spoke to in the course of reporting.",
+          "copyright": "Annie Flanagan for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2022/04/21/science/00adolescents-INSIDER/00adolescents-INSIDER-thumbLarge.jpg",
+          "format": "Large Thumbnail",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "M, one of several teenagers the author spoke to in the course of reporting.",
+          "copyright": "Annie Flanagan for The New York Times"
+        }
+      ],
+      "short_url": "https://nyti.ms/3k72f47"
+    },
+    {
+      "section": "health",
+      "subsection": "",
+      "title": "‘It’s Life or Death’: The Mental Health Crisis Among U.S. Teens",
+      "abstract": "Depression, self-harm and suicide are rising among American adolescents. For one 13-year-old, the despair was almost too much to take.",
+      "url": "https://www.nytimes.com/2022/04/23/health/mental-health-crisis-teens.html",
+      "uri": "nyt://article/21cbe94f-731c-5d7b-a1a5-830c84b8a693",
+      "byline": "By Matt Richtel and Annie Flanagan",
+      "item_type": "Article",
+      "updated_date": "2022-04-26T08:42:52-04:00",
+      "created_date": "2022-04-23T22:30:20-04:00",
+      "published_date": "2022-04-23T22:30:20-04:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "Anxiety and Stress",
+        "Teenagers and Adolescence",
+        "Mental Health and Disorders",
+        "Depression (Mental)",
+        "Psychology and Psychologists",
+        "Children and Childhood",
+        "Loneliness",
+        "Therapy and Rehabilitation",
+        "Parenting",
+        "Suicides and Suicide Attempts",
+        "Computers and the Internet",
+        "Computer and Video Games",
+        "your-feed-health",
+        "your-feed-science"
+      ],
+      "org_facet": [],
+      "per_facet": [],
+      "geo_facet": [
+        "Minneapolis (Minn)",
+        "United States"
+      ],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2021/09/20/autossell/MIlly_CVR_FINAL_COLOR_v1/MIlly_CVR_FINAL_COLOR_v1-superJumbo.jpg",
+          "format": "Super Jumbo",
+          "height": 1152,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2021/09/20/autossell/MIlly_CVR_FINAL_COLOR_v1/MIlly_CVR_FINAL_COLOR_v1-threeByTwoSmallAt2X.jpg",
+          "format": "threeByTwoSmallAt2X",
+          "height": 400,
+          "width": 600,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2021/09/20/autossell/MIlly_CVR_FINAL_COLOR_v1/MIlly_CVR_FINAL_COLOR_v1-thumbLarge.jpg",
+          "format": "Large Thumbnail",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "The New York Times"
+        }
+      ],
+      "short_url": "https://nyti.ms/3EJfbXa"
+    }
+  ]
+}

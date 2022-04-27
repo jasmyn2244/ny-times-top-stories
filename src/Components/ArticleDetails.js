@@ -11,6 +11,7 @@ const ArticleDetails = () => {
   const [newspaper, setNewspaper] = useState()
 
   let foundArticle = articles.find(article => {
+    console.log('artice', article)
     return article.title.includes(title)
   })
 
@@ -47,7 +48,7 @@ const ArticleDetails = () => {
               <div className='article-button-border'>
                 <button className='full-article-button'>
                   <a
-                    href={newspaper.short_url}
+                    href={newspaper.url}
                     target="_blank"
                     rel="noreferrer">View Full Article
                   </a>
