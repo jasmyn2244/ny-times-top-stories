@@ -18,7 +18,6 @@ const CardContainer = () => {
 
   useEffect(() => {
     setLoading(true)
-    console.log(section.section)
     getArticlesByCategory(section.section)
       .then(cleanedData => {
         setArticles(cleanedData)
