@@ -1,22 +1,23 @@
 import React, { useEffect, useState, useContext } from 'react'
-import { useParams, Link } from 'react-router-dom'
+import { useParams } from 'react-router-dom'
 import { getArticlesByCategory } from '../api-calls'
 import Card from './Card'
 import { ArticlesContext } from '../Context/ArticlesContext'
 import '../Styles/CardContainer.scss'
 import SectionButtons from './SectionButtons'
+import UniversalError from './UniversalError'
 
 
 const CardContainer = () => {
   const section = useParams()
   const { articlesValue } = useContext(ArticlesContext)
   const { articles, setArticles } = articlesValue
+  const [error, setError] = useState('')
 
   useEffect(() => {
     getArticlesByCategory(section.section)
-      .then(cleanedData => {
-        setArticles(cleanedData)
-      })
+      .then(cleanedData => setArticles(cleanedData))
+      .catch(error => setError(error))
   }, [section])
 
   let articleCards = []
@@ -36,16 +37,21 @@ const CardContainer = () => {
       }
     })
   }
-
-  return (
-    <>
-      <SectionButtons />
-      <div className='card-container'>
-        {articlesValue && articleCards}
-        {/* return a loader if there is no article availible yet if it's not defineed */}
-      </div>
-    </>
-  )
+  if (error) {
+    return (
+      <UniversalError />
+    )
+  } else {
+    return (
+      <>
+        <SectionButtons />
+        <div className='card-container'>
+          {articlesValue && articleCards}
+          {/* return a loader if there is no article availible yet if it's not defineed */}
+        </div>
+      </>
+    )
+  }
 }
 
 export default CardContainer
