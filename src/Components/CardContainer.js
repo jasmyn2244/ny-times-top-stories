@@ -6,6 +6,7 @@ import { ArticlesContext } from '../Context/ArticlesContext'
 import '../Styles/CardContainer.scss'
 import SectionButtons from './SectionButtons'
 import UniversalError from './UniversalError'
+import Loader from './Loader'
 
 
 const CardContainer = () => {
@@ -13,10 +14,15 @@ const CardContainer = () => {
   const { articlesValue } = useContext(ArticlesContext)
   const { articles, setArticles } = articlesValue
   const [error, setError] = useState('')
+  const [loading, setLoading] = useState(true)
 
   useEffect(() => {
+    setLoading(true)
     getArticlesByCategory(section.section)
-      .then(cleanedData => setArticles(cleanedData))
+      .then(cleanedData => {
+        setArticles(cleanedData)
+        setLoading(false)
+      })
       .catch(error => setError(error))
   }, [section])
 
@@ -37,7 +43,10 @@ const CardContainer = () => {
       }
     })
   }
-  if (error) {
+  if (loading) {
+    return <Loader />
+  }
+  else if (error) {
     return (
       <UniversalError />
     )
