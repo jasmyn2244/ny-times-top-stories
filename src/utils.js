@@ -7,18 +7,19 @@ const checkResponseStatus = (response) => {
 }
 
 const cleanData = (data) => {
-  const cleanedResults = data.results.reduce((acc, article) => {
+  const cleanedData = data.results.reduce((acc, article) => {
     if (article.title && article.multimedia && article.published_date && article.byline) {
       acc.push({
         title: article.title,
-        published_date: reformatDate(article.published_date),
+        publishedDate: reformatDate(article.published_date),
         byline: article.byline,
         multimedia: article.multimedia,
+        abstract: article.abstract,
       })
     }
     return acc
   }, [])
-  return cleanedResults
+  return cleanedData
 }
 
 const reformatDate = (date) => {

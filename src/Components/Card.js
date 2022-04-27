@@ -3,10 +3,7 @@ import { Link } from 'react-router-dom'
 import '../Styles/Card.scss'
 
 
-const Card = ({ section, img, title, publishDate }) => {
-  let [year, month, day] = publishDate.split('-')
-  day = day.substring(0, 2)
-  let date = [month, day, year].join('.')
+const Card = ({ section, img, title, publishedDate }) => {
 
   return (
     <Link to={`/${section}/details/${title}`}
@@ -15,7 +12,7 @@ const Card = ({ section, img, title, publishDate }) => {
         <div className='card-details'>
           <p className='title'>{title}</p>
           <div className='card-date-category'>
-            <p className='date'>{`${date}`}</p>
+            <p className='date'>{publishedDate}</p>
             <p>{section}</p>
           </div>
         </div>

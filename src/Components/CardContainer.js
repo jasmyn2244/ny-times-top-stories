@@ -14,8 +14,8 @@ const CardContainer = () => {
 
   useEffect(() => {
     getArticlesByCategory(section.section)
-      .then(data => {
-        setArticles(data.results)
+      .then(cleanedData => {
+        setArticles(cleanedData)
       })
   }, [section])
 
@@ -23,7 +23,6 @@ const CardContainer = () => {
 
   if (articles.length > 0) {
     articleCards = articles.map((article, index) => {
-      console.log(article)
       if (article.multimedia && article.title) {
         return (
           <Card
@@ -31,7 +30,7 @@ const CardContainer = () => {
             section={section.section}
             img={article.multimedia[0]}
             title={article.title}
-            publishDate={article.published_date}
+            publishedDate={article.publishedDate}
           />
         )
       }

@@ -37,7 +37,7 @@ const ArticleDetails = () => {
                 <div className='details-details'>
                   <p className='paragraph'>{newspaper.byline}</p>
                   <p className='paragraph'>Section: {section}</p>
-                  <p className='paragraph'>Published: {newspaper.published_date}</p>
+                  <p className='paragraph'>Published: {newspaper.publishedDate}</p>
                 </div>
                 <div className='abstract'>Abstract: {newspaper.abstract}</div>
               </div>
