@@ -8,18 +8,18 @@ const ArticleDetails = () => {
   const { articlesValue } = useContext(ArticlesContext)
   const { articles } = articlesValue
   const { section, title } = useParams()
-  const [newspaper, setNewspaper] = useState()
+  const [selectedArticle, setSelectedArticle] = useState()
 
   let foundArticle = articles.find(article => {
     return article.title.includes(title)
   })
 
   useEffect(() => {
-    setNewspaper(foundArticle)
+    setSelectedArticle(foundArticle)
   }, [])
 
 
-  if (newspaper) {
+  if (selectedArticle) {
     return (
       <>
         <Link to={`/section/${section}`}>
@@ -27,20 +27,20 @@ const ArticleDetails = () => {
         </Link>
         <div className='details-border'>
           <div className='details-container'>
-            <div className='details-title' data-cy='details-title'>{newspaper.title}</div>
+            <div className='details-title' data-cy='details-title'>{selectedArticle.title}</div>
             <div className='image-and-details'>
               <img
                 className='details-image'
                 data-cy='details-image'
-                src={newspaper.multimedia[0].url}
-                alt={newspaper.multimedia[0].url} />
+                src={selectedArticle.multimedia[0].url}
+                alt={selectedArticle.multimedia[0].url} />
               <div className='details-and-button'>
                 <div className='details-details'>
-                  <p className='paragraph' data-cy='byline'>{newspaper.byline}</p>
+                  <p className='paragraph' data-cy='byline'>{selectedArticle.byline}</p>
                   <p className='paragraph' data-cy='section'>Section: {section}</p>
-                  <p className='paragraph' data-cy='published-date'>Published: {newspaper.publishedDate}</p>
+                  <p className='paragraph' data-cy='published-date'>Published: {selectedArticle.publishedDate}</p>
                 </div>
-                <div className='abstract' data-cy='abstract'>Abstract: {newspaper.abstract}</div>
+                <div className='abstract' data-cy='abstract'>Abstract: {selectedArticle.abstract}</div>
               </div>
 
             </div>
@@ -48,7 +48,7 @@ const ArticleDetails = () => {
               <div className='article-button-border'>
                 <button className='full-article-button' data-cy='full-article-button'>
                   <a
-                    href={newspaper.url}
+                    href={selectedArticle.url}
                     target="_blank"
                     rel="noreferrer">View Full Article
                   </a>

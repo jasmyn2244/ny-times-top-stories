@@ -123,10 +123,16 @@
   font-size: 1.2vw;
   text-decoration: none;
   color: black;
-  padding: 2%;
   border: none;
   border-radius: 10px;
   background: whitesmoke;
+
+  a {
+    padding-top: 1.4vh;
+    display: block;
+    height: 100%;
+    width: 100%;
+  }
 }
 
 .full-article-button:hover {
