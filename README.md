@@ -1,4 +1,4 @@
-# NY-Times-Top-Stories
+# NY Times Top Stories
 
 ## Table of Contents   
 
@@ -115,7 +115,7 @@ For this project, I access data from the NYT Top Stories API.
 
 ![SASS](https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white)
 
-![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB)
+![cypress](https://img.shields.io/badge/-cypress-%23E5E5E5?style=for-the-badge&logo=cypress&logoColor=058a5e)
 
 
 # Contributors
