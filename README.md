@@ -19,31 +19,57 @@ NY Times Top Stories allows users to view top news stories based on thier news s
 ## Project Goals
 
 - Practice builidng an entire app quickly to simulate a take home challenge
+- Solidify all skills and processes learned at bootcamp including:
+  - React
+  - React Hooks
+  - React Router
+  - Gobal State Management, or context API
+  - Rest API, fetch calls
+  - Data cleaning
+  - Error Handling
+  - Considering Edge Cases
+  - Accessiblilty
+  - Responsive Design
+  - Data manipulation (iterators)
+  - SCSS (flexbox, grid, animations)
+  - Cypress Testing
+  - Git and Github (pull request templates)
+  - Project Planning (with Figma and Github project boards)
+  - User Experience
+  
 
 ## Project Specs
 
 View wire frame [here](https://www.figma.com/file/qbZozMRUVdj5i832rnFF6I/NY-Times-Top-Stories?node-id=0%3A1) 
+View project requirements [here](https://mod4.turing.edu/projects/take_home/take_home_fe)
 
 **Homepage:**
 
 The user can select a news category to begin viewing news articles
 
-<img width="1395" alt="Screen Shot 2022-04-26 at 9 39 19 AM" src="https://user-images.githubusercontent.com/78129211/165341009-a8e44970-e11b-4196-8095-f4385113cf57.png">
+<img width="932" alt="Screen Shot 2022-04-27 at 2 10 10 PM" src="https://user-images.githubusercontent.com/78129211/165653535-8f48ac10-100c-4d51-957d-5290a66a469f.png">
+
+
 
 **Brows Articles By Catergory**
 
 Once a category is selected, users can scroll through the cards to find an articles of interest
 
-<img width="1406" alt="Screen Shot 2022-04-26 at 9 40 08 AM" src="https://user-images.githubusercontent.com/78129211/165341057-6cc48008-80a2-4934-a0e2-f809d858f7d7.png">
+<img width="1418" alt="Screen Shot 2022-04-27 at 2 12 47 PM" src="https://user-images.githubusercontent.com/78129211/165653529-669d49c2-bdb4-47b2-8b81-747af9369d94.png">
+
+
 
 **Article Details Page:**
 
 When users click a card, they are taken to an articles details pages where they can view more information about the article including an abstract. They can click a button to be linked to the full NYT article, or go back to brows more of the articles
 
-<img width="1405" alt="Screen Shot 2022-04-26 at 9 40 21 AM" src="https://user-images.githubusercontent.com/78129211/165341088-f4485a37-b2c4-4c1d-b766-b96e3f354ef9.png">
+<img width="1432" alt="Screen Shot 2022-04-27 at 2 13 17 PM" src="https://user-images.githubusercontent.com/78129211/165653520-e70d1518-2db1-4aec-84cb-ae06ee115453.png">
 
 
-**Single Sighting page:**
+**Error Handling:**
+
+<img width="1426" alt="Screen Shot 2022-04-27 at 2 16 14 PM" src="https://user-images.githubusercontent.com/78129211/165653510-3daef072-093a-4d03-85e6-38485191b122.png">
+<img width="1423" alt="Screen Shot 2022-04-27 at 2 13 48 PM" src="https://user-images.githubusercontent.com/78129211/165653516-e7aadb89-c844-4172-8d8c-495e994bf784.png">
 
 
 ## Challenges
